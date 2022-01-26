@@ -4,10 +4,18 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+}
+
+.selector {
+    font-size: 40px;
+    background-color: indigo;
+    border-radius: 25%;
+    color: azure;
 }
 
 #title {
-    font-size: 50px;
+    font-size: 80px;
 }
 
 
@@ -20,7 +28,7 @@ body {
 }
 
 .grid-item {
-    background-color: aqua;
+    background-color: rgb(221, 236, 236);
     border: 1px solid black;
 
 }
