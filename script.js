@@ -23,8 +23,13 @@ grid.addEventListener("mouseover", function ( event ) {
     })
 
 function cellNumber () {
-    cells = parseInt(prompt("How many cells per side would you like?"));
-    return cells
+    cells = parseInt(prompt("How many cells per side would you like?" , "16"));
+    if (cells <= 100 && cells > 0) {
+        return cells
+    } else { 
+        return 16
+    }    
+
 }
 
 function clearcells(parent) {
